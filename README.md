@@ -20,7 +20,7 @@ Finally, when you close the game, it will copy the savegames from appdata back t
 
 NOTES:
 This is a messy solution to the problem. Batch can't handle long file names and its been that way since DOS, so profiles longer than 6 (or so) characters will be cut off. For example, Default Profile will become DEFAUL~1. To prevent this, just create a profile thats shorter than six characters to avoid duplicates and complications.
-Also, Zoo Tycoon 2 will boot to Default Profile since options.xml gets deleted every time this is run, so you'll have to select the portable profile from the top of the main menu when you start the game.
+Also, Zoo Tycoon 2 will boot to Default Profile, so you'll have to select the portable profile from the top of the main menu when you start the game.
 
 CONCLUSION:
 Like I said, this is a pretty messy solution and I'm not sure if it will work every time. If theres any problems, I'll try my best to fix this the best I can.
