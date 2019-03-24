@@ -1,0 +1,9 @@
+@echo Copying Save Games from PROFILES folder...
+xcopy /y /n /s "PROFILES" "%appdata%\Microsoft Games\Zoo Tycoon 2\"
+@echo Running Zoo Tycoon 2...
+start /wait zt.exe
+@echo Zoo Tycoon 2 Terminated!
+@echo Copying Save Games back to PROFILES folder...
+xcopy /y /n /s "%appdata%\Microsoft Games\Zoo Tycoon 2" "PROFILES"
+@echo Removing Save Games from LOCAL DRIVE
+rd /s /q "%appdata%\Microsoft Games\Zoo Tycoon 2\"
